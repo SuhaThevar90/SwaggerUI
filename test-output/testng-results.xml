@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="19" passed="19">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6752" started-at="2021-07-01T12:15:37 IST" finished-at="2021-07-01T12:15:43 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.restApi.testRunners.RunCucumberTest@6a1aab78]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="6752" started-at="2021-07-01T12:15:37 IST" finished-at="2021-07-01T12:15:43 IST">
+      <class name="com.restApi.testRunners.RunCucumberTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.restApi.testRunners.RunCucumberTest@6a1aab78]" name="setUpClass" is-config="true" duration-ms="711" started-at="2021-07-01T12:15:37 IST" finished-at="2021-07-01T12:15:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.restApi.testRunners.RunCucumberTest@6a1aab78]" name="runScenario" duration-ms="3006" started-at="2021-07-01T12:15:37 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-01T12:15:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Create Pet operation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify all Pet Operations]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.restApi.testRunners.RunCucumberTest@6a1aab78]" name="runScenario" duration-ms="78" started-at="2021-07-01T12:15:40 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-01T12:15:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Put Pet operation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify all Pet Operations]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.restApi.testRunners.RunCucumberTest@6a1aab78]" name="runScenario" duration-ms="58" started-at="2021-07-01T12:15:41 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-01T12:15:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Delete Pet operation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify all Pet Operations]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.restApi.testRunners.RunCucumberTest@6a1aab78]" name="runScenario" duration-ms="27" started-at="2021-07-01T12:15:41 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-01T12:15:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Invalid Pet ID Scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify all Pet Operations]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.restApi.testRunners.RunCucumberTest@6a1aab78]" name="runScenario" duration-ms="13" started-at="2021-07-01T12:15:41 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-01T12:15:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Pet Not Found Scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify all Pet Operations]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.restApi.testRunners.RunCucumberTest@6a1aab78]" name="runScenario" duration-ms="72" started-at="2021-07-01T12:15:41 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-01T12:15:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify updating Pet details with formdata"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify all Pet Operations]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.restApi.testRunners.RunCucumberTest@6a1aab78]" name="runScenario" duration-ms="59" started-at="2021-07-01T12:15:41 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-01T12:15:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Get Pet details by tags"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify all Pet Operations]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.restApi.testRunners.RunCucumberTest@6a1aab78]" name="runScenario" duration-ms="16" started-at="2021-07-01T12:15:41 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-01T12:15:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Get Pet details by status"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify all Pet Operations]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.restApi.testRunners.RunCucumberTest@6a1aab78]" name="runScenario" duration-ms="49" started-at="2021-07-01T12:15:41 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-01T12:15:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Create Store operation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify all Store Operations]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.restApi.testRunners.RunCucumberTest@6a1aab78]" name="runScenario" duration-ms="63" started-at="2021-07-01T12:15:41 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-01T12:15:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Invalid ID supplied Scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify all Store Operations]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.restApi.testRunners.RunCucumberTest@6a1aab78]" name="runScenario" duration-ms="15" started-at="2021-07-01T12:15:41 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-01T12:15:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Order Not Found Scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify all Store Operations]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.restApi.testRunners.RunCucumberTest@6a1aab78]" name="runScenario" duration-ms="32" started-at="2021-07-01T12:15:41 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-01T12:15:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify get pet Inventories by status Scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify all Store Operations]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.restApi.testRunners.RunCucumberTest@6a1aab78]" name="runScenario" duration-ms="77" started-at="2021-07-01T12:15:41 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-01T12:15:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Delete Order operation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify all Store Operations]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.restApi.testRunners.RunCucumberTest@6a1aab78]" name="runScenario" duration-ms="32" started-at="2021-07-01T12:15:41 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-01T12:15:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Get User Login/Logout operations"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify User operations]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.restApi.testRunners.RunCucumberTest@6a1aab78]" name="runScenario" duration-ms="15" started-at="2021-07-01T12:15:41 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-01T12:15:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Get User Login/Logout operations"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify User operations]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.restApi.testRunners.RunCucumberTest@6a1aab78]" name="runScenario" duration-ms="63" started-at="2021-07-01T12:15:41 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-01T12:15:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Create User operation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify User operations]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.restApi.testRunners.RunCucumberTest@6a1aab78]" name="runScenario" duration-ms="78" started-at="2021-07-01T12:15:41 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-01T12:15:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify CreateList User operation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify User operations]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.restApi.testRunners.RunCucumberTest@6a1aab78]" name="runScenario" duration-ms="66" started-at="2021-07-01T12:15:41 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-01T12:15:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Delete User operationp."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify User operations]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.restApi.testRunners.RunCucumberTest@6a1aab78]" name="runScenario" duration-ms="153" started-at="2021-07-01T12:15:41 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-01T12:15:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Put User operation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify User operations]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.restApi.testRunners.RunCucumberTest@6a1aab78]" name="tearDownClass" is-config="true" duration-ms="2014" started-at="2021-07-01T12:15:41 IST" finished-at="2021-07-01T12:15:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.restApi.testRunners.RunCucumberTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
